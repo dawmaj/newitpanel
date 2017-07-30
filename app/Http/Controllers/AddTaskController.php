@@ -34,7 +34,7 @@ class AddTaskController extends Controller
         $user->description = $request->input('description');
         $user->save();
 
-        return "DODANE";
+        return view ('home');
     }
 
 }

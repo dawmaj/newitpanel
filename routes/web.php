@@ -22,4 +22,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin', 'AdminController@welcome')->name('admin');
 
 Route::get('/addtask', 'AddTaskController@welcome')->name('admin');
+Route::get('/showtask', 'ShowTaskController@show')->name('showtask');
 Route::post('/taskadded', 'AddTaskController@store')->name('admin');

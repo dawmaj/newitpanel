@@ -8,7 +8,6 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                    You are logged in!
                 <a href="{{ url('/admin') }}">Admin site</a>
                 </div>
             </div>
