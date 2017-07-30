@@ -19,4 +19,6 @@
 			}
 		?>
 	</table>
+	<button type="button" class="btn btn-primary btn-lg btn-block" onclick="location.href='{{ url('admin') }}'"> 
+           <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> POWRÓT</button>
 @endsection

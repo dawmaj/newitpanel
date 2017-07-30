@@ -8,7 +8,10 @@
                 <div class="panel-heading">Dashboard</div>
 
                 <div class="panel-body">
-                <a href="{{ url('/admin') }}">Admin site</a>
+                <button type="button" class="btn btn-group-justified btn-lg" onclick="location.href='{{ url('admin') }}'"> 
+                    <span class=" glyphicon glyphicon-cog" aria-hidden="true"></span> STRONA ADMINA
+                </button>
+                </div>
                 </div>
             </div>
         </div>

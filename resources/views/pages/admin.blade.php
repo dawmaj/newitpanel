@@ -10,6 +10,8 @@
                 <div class="panel-body">
                 <button type="button" class="btn btn-primary btn-lg btn-block" onclick="location.href='{{ url('addtask') }}'">
                     <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> DODAJ TASK</button>
+                    <button type="button" class="btn btn-primary btn-lg btn-block" onclick="location.href='{{ url('showtask') }}'"> 
+           <span class="glyphicon glyphicon-inbox" aria-hidden="true"></span> POKAŻ ZADANIA</button>
                 </div>
             </div>
         </div>
