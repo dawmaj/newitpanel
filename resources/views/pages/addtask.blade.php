@@ -9,16 +9,37 @@
 		  </div>
 		  <div class="row">
         		<div class="col-md-2 col-md-offset-1">DZIAŁ:</div>
-        		<div class="col-xs-5 selectContainer">
+        		<div class="col-xs-2 selectContainer">
             		<select class="form-control" name="section">
-		                <option>Wybierz dział</option>
-		                <option>IT</option>
-		                <option>kadry</option>
-		                <option>księgowość</option>
-		                <option>montoring</option>
+		                <option value ="">Wybierz dział</option>
+		                <option value ="IT">IT</option>
+		                <option value ="KADRY">kadry</option>
+		                <option value ="KSIĘGOWOŚĆ">księgowość</option>
+		                <option value ="MONITORING">montoring</option>
             		</select>
         		</div>
     	</div>
+    	<!-- <div class="row">
+        		<div class="col-md-2 col-md-offset-1">DEADLINE (w dniach)</div>
+        		<div class="col-xs-2 selectContainer">
+            		<select class="form-control" name="deadline">
+		                <option>1</option>
+		                <option>2</option>
+		                <option>3</option>
+		                <option>4</option>
+		                <option>5</option>
+		                <option>6</option>
+		                <option>7</option>
+		                <option>8</option>
+		                <option>9</option>
+		                <option>10</option>
+		                <option>11</option>
+		                <option>12</option>
+		                <option>13</option>
+		                <option>14</option>
+            		</select>
+        		</div>
+    	</div> -->
 		  <!-- <div class="row">
 			  <div class="col-md-2 col-md-offset-1">DZIAŁ:</div>
 			  <div class="col-md-6"><input class="form-control" name="section" type="text" placeholder="Dział"></div>

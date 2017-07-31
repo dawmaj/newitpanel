@@ -2,9 +2,11 @@
 
 @section('content')
 	<table class="table">
-		<tr>
+		<tr class="active">
 			<td>Dział</td>
 			<td>Problem</td>
+			<td>Przedmiot</td>
+			<td>Objawy</td>
 			<td>Kto dodał</td>
 		</tr>
 		<?php
@@ -13,7 +15,9 @@
 		<tr>
 			<td><?php echo $task->section ?></td>
 			<td><?php echo $task->issue ?></td>
-      		<td><?php echo $task->showtask->name ?></td>
+			<td><?php echo $task->about ?></td>
+			<td><?php echo $task->description ?></td>
+      		<td><?php echo $task->user->name ?></td>
 		</tr>
 		<?php
 			}

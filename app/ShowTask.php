@@ -7,9 +7,9 @@ use Illuminate\Database\Eloquent\Model;
 class ShowTask extends Model
 {
     protected $table = 'tasks';
-
-    public function showtask()
+    protected $primaryKey = 'id';
+  	public function user()
     {
-           return $this->hasOne('App\User', 'id');
+           return $this->belongsTo('App\User');
     }
 }
