@@ -34,7 +34,7 @@
 		  </div>
 		  <div class="col-md-5 col-md-offset-3">
 		  <button type="submit" class="btn btn-primary btn-lg btn-block" name='submit' >
-	       <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> WYŚLIJ</button>
+	       <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>DODAJ ZADANIE</button>
 	       <button type="button" class="btn btn-primary btn-lg btn-block" onclick="location.href='{{ url('showtask') }}'"> 
            <span class="glyphicon glyphicon-inbox" aria-hidden="true"></span> POKAŻ ZADANIA</button>
 	      </div>
