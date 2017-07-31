@@ -8,6 +8,7 @@
 			<td>Przedmiot</td>
 			<td>Objawy</td>
 			<td>Kto dodał</td>
+			<td>Deadline</td>
 		</tr>
 		<?php
 			foreach($tasks as $task){
@@ -18,6 +19,7 @@
 			<td><?php echo $task->about ?></td>
 			<td><?php echo $task->description ?></td>
       		<td><?php echo $task->user->name ?></td>
+      		<td><?php echo $task->deadline ?></td>
 		</tr>
 		<?php
 			}

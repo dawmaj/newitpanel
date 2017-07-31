@@ -27,10 +27,11 @@ class AddTaskController extends Controller
     public function store(Request $request)
     {
         $dt = Carbon::now();
+        $diff = $dt->addDays($request->deadline);
         $user = new AddTask();
         $user->user_id = Auth::id();
         $user->issue = $request->input('issue');
-        //$user->deadline = $request->addDays(Carbon::parse($dt->deadline)->toDateTimeString());
+        $user->deadline = $diff;
         $user->section = $request->section;
         $user->about = $request->input('about');
         $user->description = $request->input('description');
